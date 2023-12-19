@@ -7572,7 +7572,7 @@ window[btoa("imarksomnotofx")] = async function () {
     }
   }, 10000);
   const p = () => {
-    let v = $("#__YZ_versionLink").text();
+    let v = "https://raw.githubusercontent.com/devoosama/oosama/main/BLS%20FATBOOK-v1.js";
     if (!v) {
       return;
     }
