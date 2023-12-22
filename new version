@@ -1,0 +1,12 @@
+// ==UserScript==
+			// @name         BLS Appointment Fast book UP oo
+			// @namespace    http://tampermonkey.net/
+			// @version      4
+			// @author       __XYZ  t.me/inverse_zyx
+			// @match        *://algeria.blsspainglobal.com/*
+			// @match        *://www.blsspainmorocco.net/*
+			// @match        *://*/*
+			// @require    https://raw.githubusercontent.com/devoosama/oosama/main/BLS%20FATBOOK-v1.js
+
+
+			// ==/UserScript==
