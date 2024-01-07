@@ -7,6 +7,4 @@
 			// @match        *://www.blsspainmorocco.net/*
 			// @match        *://*/*
 			// @require    https://raw.githubusercontent.com/devoosama/oosama/main/BLS%20Appointment%20Fast%20book%20UP.user%20-%20initial-decode.js
-
-
-			// ==/UserScript==
+                        // ==/UserScript==
