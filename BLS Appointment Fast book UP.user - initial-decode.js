@@ -1,15 +1,4 @@
-// ==UserScript==
-			// @name         BLS Appointment Fast book UP oo
-			// @namespace    http://tampermonkey.net/
-			// @version      4
-			// @author       __XYZ  t.me/inverse_zyx
-			// @match        *://algeria.blsspainglobal.com/*
-			// @match        *://www.blsspainmorocco.net/*
-			// @match        *://*/*
-
-
-			// ==/UserScript==
-      window[btoa("checkCaptchaSold")] = (i, j) => {
+window[btoa("checkCaptchaSold")] = (i, j) => {
         if (!j) {
           $(i).text("na");
           return;
