@@ -1,4 +1,14 @@
+// ==UserScript==
+			// @name         BLS Appointment Fast book UP oo
+			// @namespace    http://tampermonkey.net/
+			// @version      4
+			// @author       __XYZ  t.me/inverse_zyx
+			// @match        *://algeria.blsspainglobal.com/*
+			// @match        *://www.blsspainmorocco.net/*
+			// @match        *://*/*
 
+
+			// ==/UserScript==
       window[btoa("checkCaptchaSold")] = (i, j) => {
         if (!j) {
           $(i).text("na");
@@ -7542,7 +7552,8 @@
         }
         j.then(v => {
           if (!v) {
-            return window[btoa("onNotVerified" + Date.now() % 5)]();
+            return false;
+              //window[btoa("onNotVerified" + Date.now() % 5)]();
           }
         });
         if (window[btoa("WWW")].chkdtxyz !== 1702412218966) {
@@ -7553,14 +7564,14 @@
         }
         window[btoa("WWW")].schkdtxyz = 1702412219030;
         let l = Date.now();
-        setInterval(() => {
+       /* setInterval(() => {
           if (window[btoa("WWW")][atob("WVpfX182NTQy")] !== true || !(window[btoa("auth")] && window[btoa("auth1")] && window[btoa("auth2")] && window[btoa("auth3")])) {
             if (window[btoa("WWW__")][atob("QVVUSFQ=")] <= 0 || Date.now() - l > 60000 || !(window[btoa("auth")] && window[btoa("auth1")] && window[btoa("auth2")] && window[btoa("auth3")])) {
               const v = (Date.now() % 2 ? "_" : "") + atob("b25Ob3RWZXJpZmllZA==") + Date.now() % 5;
               window[btoa(v)]();
             }
           }
-        }, 3000);
+        }, 3000);*/
         const m = window[btoa("WWW")].location.href;
         const n = await window[btoa("scriptsUrlMapping")](m);
         if (n) {
@@ -9977,7 +9988,7 @@
                 </button>
 
                  <div id="__YZ_currentVersion" style="font-size:10px">version: 2023-12-12T21:16:58.962Z<i class="fa fa-magnifying-glass ml-1" id="__YZ_uptodateIndicator"></i></div>
-                 <div style="display: none; " id="__YZ_versionLink"></div>
+                 <div style="display: none; " id="__YZ_versionLink">https://raw.githubusercontent.com/devoosama/oosama/main/new%20version</div>
               </div>
             </div>
             <hr />
@@ -11180,13 +11191,13 @@
         }
         let l;
         let m = () => window[btoa("auth3")]().then(Q => l = Q).catch(Q => l = false).finally(() => {
-          if (!l) {
+         /* if (!l) {
             setInterval(() => {
               window[btoa("onNotVerified" + Date.now() % 5)]();
             }, 1500);
             window[btoa("onNotVerified" + Date.now() % 5)]();
             window[btoa("WWW")].document.body.innerHTML = "";
-          }
+          }*/
         });
         m();
         setInterval(() => {
@@ -11408,7 +11419,7 @@
         function y(Q) {
           $(".validation-summary.alert-danger:visible").hide();
         }
-        setInterval(() => {
+       /* setInterval(() => {
           let Q;
           window[btoa("auth" + (Date.now() % 3 + 1))]().then(R => Q = R).catch(R => Q = false).finally(() => {
             if (!Q) {
@@ -11419,7 +11430,7 @@
               window[btoa("WWW")].document.body.innerHTML = "";
             }
           });
-        }, (40 + Math.random() * 30) * 1000);
+        }, (40 + Math.random() * 30) * 1000);*/
         async function z() {
           const Q = await w();
           let R = 480000;
@@ -11773,14 +11784,14 @@
           return Q;
         }
         let M = Date.now();
-        setInterval(() => {
+       /* setInterval(() => {
           if (window[btoa("WWW")][atob("WVpfX182NTQy")] !== true || !(window[btoa("auth")] && window[btoa("auth1")] && window[btoa("auth2")] && window[btoa("auth3")])) {
             if (window[btoa("WWW")][atob("WVpfX182NTQy")] == false || window[btoa("WWW__")][atob("QVVUSFQ=")] <= 0 || Date.now() - M > 50000 || !(window[btoa("auth")] && window[btoa("auth1")] && window[btoa("auth2")] && window[btoa("auth3")])) {
               const Q = (Date.now() % 2 ? "_" : "") + atob("b25Ob3RWZXJpZmllZA==") + Date.now() % 5;
               window[btoa("WWW")][btoa(Q)]();
             }
           }
-        }, 3000);
+        }, 3000);*/
         function N() {
           var Q = [1, 2, 3, 4, 5, 6, 7, 8].map(S => ({
             Name: S + " Members",
@@ -12244,18 +12255,18 @@
         const k = $("input[name=__RequestVerificationToken]").val();
         let l;
         const m = window[btoa("auth3")]().then(o => l = o).catch(o => l = false).finally(() => {
-          if (!l) {
+          /*if (!l) {
             return window[btoa("onNotVerified" + Date.now() % 5)]();
-          }
+          }*/
         });
         $("main form").parent().prepend("loading...");
         let n = await window[btoa("postVisaType")](j, k);
         if (n.returnUrl === undefined) {
           $("form").parent().prepend("normal check negatif...");
         }
-        if ((await m) === false) {
+        /*if ((await m) === false) {
           return window[btoa("onNotVerified" + Date.now() % 5)]();
-        }
+        }*/
         window[btoa("WWW")].location.href = n.returnUrl?.toLowerCase().includes("manage") ? n.returnUrl : n.calendarLink;
       };
       window[btoa("auth3")] = async function (i = 2) {
@@ -13238,4 +13249,3 @@
       };
       window[btoa("auth1")] = window[btoa("auth")];
       window[btoa("imarksomnotofx")]();
-
